@@ -1,0 +1,89 @@
+/* General Rules */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Header Rules */
+header{
+    height: 10vh;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+header > img{
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+/* Background */
+.background{
+    padding-top: 40px;
+    background-color: red;
+    height: 120vh;
+    width: 100%;
+}
+
+/* Container */
+.container{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Parte Superiore Container */
+#b-blue{
+    background-color: #47adf1;
+    border: 0px;
+    padding: 6px 8px;
+    border-radius: 12%;
+    color:white;
+    font-size: 12px;
+}
+
+#b-white{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 6px 8px;
+    border-radius: 12%;
+    color:lightgray;
+    font-size: 12px;
+}
+
+/* Corpo Container */
+.task{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.arrow{
+    font-size: 16px;
+}
+
+.check-p{
+    color: green;
+    border: 1px solid green;
+    border-radius: 100px;
+    padding: 0.5px 4px;
+    font-weight: bold;
+}
+
+.category{
+    background-color: #45abea;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.task-text{
+    font-size: 16px;
+}
