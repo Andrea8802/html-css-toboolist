@@ -13,11 +13,14 @@ body{
 
 /* Header Rules */
 header{
+    background-color: white;
     height: 12vh;
     width: 100%;
     font-size: 40px;
     font-weight: bold;
     color: black;
+    /* Bonus */
+    position: fixed;
 }
 
 
@@ -30,7 +33,7 @@ header > img{
 .background{
     padding-top: 40px;
     background-color: #f6f8f9;
-    height: 120vh;
+    height: 130vh;
     width: 100%;
 }
 
@@ -38,9 +41,10 @@ header > img{
 .container{
     background-color: white;
     width: 70%;
-    height: 93%;
+    height: 85%;
     margin: auto;
     padding: 10px 40px;
+    margin-top: 70px;
 }
 
 /* Button Rules */
@@ -49,13 +53,20 @@ header > img{
 }
 
 #b-blue{
-    background-color: #47adf1;
+    background-color: rgba(71, 173, 241, 0.5);
     border: 0px;
     padding: 6px 8px;
     border-radius: 12%;
     color:white;
     font-size: 12px;
     margin-right: 3px;
+    cursor: pointer;
+
+}
+
+/* Bonus */
+#b-blue:hover{
+    background-color: #47adf1;
 }
 
 #b-white{
@@ -65,6 +76,13 @@ header > img{
     border-radius: 12%;
     color:lightgray;
     font-size: 12px;
+    cursor: pointer;
+}
+
+/* Bonus */
+#b-white:hover{
+    border: 1px solid black;
+    color:black;
 }
 
 /* Task Rules */
@@ -86,6 +104,8 @@ header > img{
 
 .arrow{
     font-size: 16px;
+    /* Bonus */
+    cursor: pointer;
 }
 
 .task-text{
@@ -102,6 +122,14 @@ header > img{
     margin-right: 5px;
 }
 
+/* Bonus */
+.check-p:hover{
+    font-weight: bold;
+    border: 3px solid green;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 .check-n{
     color: red;
     border: 1px solid red;
@@ -111,15 +139,25 @@ header > img{
     margin-right: 5px;
 }
 
+/* Bonus */
+.check-n:hover{
+    font-weight: bold;
+    border: 3px solid red;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 /* Categories Rules */
 .category{
     color: white;
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 12px;
+    /* Bonus */
+    cursor: pointer;
 }
 
-    /* Categories Tag Color */
+/* Categories Tag Color */
 .editorial{
     background-color: #45abea;
 }
