@@ -73,15 +73,38 @@ header > img{
     border: 1px solid green;
     border-radius: 100px;
     padding: 0.5px 4px;
-    font-weight: bold;
+    
+}
+
+.check-n{
+    color: red;
+    border: 1px solid red;
+    border-radius: 100px;
+    padding: 0.5px 4px;
+    
 }
 
 .category{
-    background-color: #45abea;
     color: white;
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 12px;
+}
+
+.editorial{
+    background-color: #45abea;
+}
+
+.q1-goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f29e33;
 }
 
 .task-text{
