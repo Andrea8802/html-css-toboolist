@@ -3,42 +3,51 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    
+}
 
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #474b53;
 }
 
 /* Header Rules */
 header{
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     font-size: 40px;
     font-weight: bold;
+    color: black;
 }
 
 
 header > img{
-    margin-right: 10px;
-    vertical-align: text-top;
+    margin: 10px 2px 0px 12px;
+    vertical-align: bottom;
 }
 
-/* Background */
+/* Background Rules*/
 .background{
     padding-top: 40px;
-    background-color: red;
+    background-color: #f6f8f9;
     height: 120vh;
     width: 100%;
 }
 
-/* Container */
+/* Container Rules */
 .container{
     background-color: white;
-    width: 80%;
+    width: 70%;
     height: 80%;
     margin: auto;
-    padding: 10px;
+    padding: 10px 40px;
 }
 
-/* Parte Superiore Container */
+/* Button Rules */
+.button{
+    margin: 10px 0px 35px 0px;
+}
+
 #b-blue{
     background-color: #47adf1;
     border: 0px;
@@ -46,6 +55,7 @@ header > img{
     border-radius: 12%;
     color:white;
     font-size: 12px;
+    margin-right: 3px;
 }
 
 #b-white{
@@ -57,7 +67,17 @@ header > img{
     font-size: 12px;
 }
 
-/* Corpo Container */
+/* Task Rules */
+.title-task{
+    margin-top: 40px;
+}
+
+.text{
+    margin: 8px 0px;
+    line-height: 30px;
+
+}
+
 .task{
     font-weight: bold;
     font-size: 18px;
@@ -68,22 +88,29 @@ header > img{
     font-size: 16px;
 }
 
+.task-text{
+    font-size: 16px;
+}
+
+/* Check Symbols Rules */
 .check-p{
     color: green;
     border: 1px solid green;
     border-radius: 100px;
-    padding: 0.5px 4px;
-    
+    padding: 1px 3px;
+    font-size: 12px;
 }
 
 .check-n{
     color: red;
     border: 1px solid red;
     border-radius: 100px;
-    padding: 0.5px 4px;
+    padding: 1px 3px;
+    font-size: 12px;
     
 }
 
+/* Categories Rules */
 .category{
     color: white;
     padding: 5px 10px;
@@ -91,6 +118,7 @@ header > img{
     font-size: 12px;
 }
 
+    /* Categories Tag Color */
 .editorial{
     background-color: #45abea;
 }
@@ -107,6 +135,11 @@ header > img{
     background-color: #f29e33;
 }
 
-.task-text{
-    font-size: 16px;
+.website{
+    background-color: #da6ba6;
 }
+
+.sales{
+    background-color: #b8ce3b;
+}
+
